@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PageGroove Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #10161b;
+        --panel: #18232b;
+        --text: #f5f2ea;
+        --muted: #c7cdc8;
+        --accent: #f4b860;
+        --border: rgba(255, 255, 255, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 40px 20px;
+        font-family: "Avenir Next", "Trebuchet MS", sans-serif;
+        background: linear-gradient(160deg, #0f141a 0%, #18232b 45%, #314a44 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 28px 30px;
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        background: rgba(9, 13, 17, 0.7);
+        box-shadow: 0 18px 48px rgba(0, 0, 0, 0.28);
+      }
+
+      h1, h2 {
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        font-size: 34px;
+      }
+
+      h2 {
+        margin-top: 26px;
+        font-size: 18px;
+      }
+
+      p, li {
+        color: var(--muted);
+        line-height: 1.55;
+        font-size: 15px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.14em;
+        color: var(--accent);
+      }
+
+      strong {
+        color: var(--text);
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        color: var(--text);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">PageGroove</p>
+      <h1>Privacy Policy</h1>
+      <p>Effective date: April 2, 2026</p>
+      <p>
+        PageGroove is a Chrome extension that turns the structure of the current web page into a deterministic synth loop.
+        This policy explains what data the extension handles and how it is used.
+      </p>
+
+      <h2>What PageGroove handles</h2>
+      <p>
+        To generate audio for the current page, PageGroove reads structural information from the page you are viewing. This can
+        include page metrics such as heading count, link count, image count, DOM depth, node count, hostname, page title, and a
+        stable hash derived from page structure.
+      </p>
+      <p>
+        PageGroove also stores user settings such as playback state, volume, tempo, density, mood, and root note using Chrome
+        extension storage.
+      </p>
+
+      <h2>How PageGroove uses data</h2>
+      <ul>
+        <li>To generate a deterministic audio loop for the current page</li>
+        <li>To keep playback synced with the active tab</li>
+        <li>To remember the user's playback and sound settings</li>
+      </ul>
+
+      <h2>What PageGroove does not do</h2>
+      <ul>
+        <li>It does not send page content, browsing activity, or settings to the developer's servers</li>
+        <li>It does not sell user data</li>
+        <li>It does not use data for advertising, profiling, or analytics</li>
+        <li>It does not share user data with third parties</li>
+      </ul>
+
+      <h2>Where data is processed</h2>
+      <p>
+        PageGroove processes page structure locally in the browser. Audio generation is performed locally with the Web Audio API.
+      </p>
+
+      <h2>Data retention</h2>
+      <p>
+        Settings saved by the extension remain in Chrome extension storage until the user changes them or removes the extension.
+        Page structure is used to generate audio and is not stored remotely by the developer.
+      </p>
+
+      <h2>Permissions</h2>
+      <p>
+        PageGroove requests access to websites so it can read structural page information for the user-facing audio feature. It
+        also uses <code>tabs</code>, <code>storage</code>, <code>offscreen</code>, and <code>scripting</code> to support playback,
+        saved settings, and dynamic page handling.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        This policy may be updated if the extension's behavior changes. Any material changes should be reflected in an updated
+        effective date and published version.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Add your support email or website here before publishing.
+      </p>
+    </main>
+  </body>
+  </html>

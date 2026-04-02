@@ -1,0 +1,120 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1260" y2="840" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1217"/>
+      <stop offset="0.48" stop-color="#18232B"/>
+      <stop offset="1" stop-color="#27413E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="950" y1="118" x2="1214" y2="794" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD38E"/>
+      <stop offset="0.58" stop-color="#F4B860"/>
+      <stop offset="1" stop-color="#B9602D"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="178" y1="526" x2="546" y2="658" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD38E"/>
+      <stop offset="1" stop-color="#B9602D"/>
+    </linearGradient>
+    <filter id="shadow" x="90" y="98" width="1220" height="706" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+    <style>
+      .title { fill: #F6F3EB; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 48px; font-weight: 700; }
+      .body { fill: rgba(246, 243, 235, 0.72); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 21px; }
+      .small { fill: rgba(246, 243, 235, 0.76); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 18px; }
+      .label { fill: rgba(208, 212, 206, 0.88); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; }
+      .value { fill: #F6F3EB; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: 700; }
+      .hero { fill: #FFD38E; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+      .brand { fill: #F6F3EB; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 34px; font-weight: 700; }
+      .status { fill: rgba(208, 212, 206, 0.92); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 15px; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="214" cy="116" r="186" fill="#F4B860" fill-opacity="0.08"/>
+  <circle cx="1190" cy="780" r="240" fill="#7FDDB0" fill-opacity="0.07"/>
+
+  <g filter="url(#shadow)">
+    <rect x="118" y="124" width="760" height="618" rx="30" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="118" y="124" width="760" height="76" rx="30" fill="rgba(5,8,11,0.36)"/>
+    <circle cx="160" cy="162" r="6" fill="rgba(255,255,255,0.24)"/>
+    <circle cx="184" cy="162" r="6" fill="rgba(255,255,255,0.24)"/>
+    <circle cx="208" cy="162" r="6" fill="rgba(255,255,255,0.24)"/>
+    <rect x="250" y="144" width="420" height="36" rx="18" fill="rgba(255,255,255,0.08)"/>
+    <text x="274" y="167" class="small">https://example.com/features</text>
+
+    <rect x="154" y="228" width="446" height="428" rx="28" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)"/>
+    <rect x="628" y="228" width="214" height="122" rx="24" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)"/>
+    <rect x="628" y="372" width="214" height="122" rx="24" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)"/>
+    <rect x="628" y="516" width="214" height="140" rx="24" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)"/>
+
+    <rect x="190" y="262" width="168" height="34" rx="17" fill="rgba(244,184,96,0.14)"/>
+    <text x="214" y="284" class="hero">Live page structure</text>
+    <text x="190" y="354" class="title">Every page gets</text>
+    <text x="190" y="410" class="title">its own groove.</text>
+    <text x="190" y="462" class="body">Headings, links, images, and layout depth are</text>
+    <text x="190" y="492" class="body">mapped into a repeatable musical identity that</text>
+    <text x="190" y="522" class="body">changes as you move across the web.</text>
+
+    <rect x="190" y="590" width="42" height="42" rx="18" fill="url(#wave)"/>
+    <rect x="246" y="560" width="42" height="72" rx="18" fill="url(#wave)"/>
+    <rect x="302" y="526" width="42" height="106" rx="18" fill="url(#wave)"/>
+    <rect x="358" y="574" width="42" height="58" rx="18" fill="url(#wave)"/>
+    <rect x="414" y="542" width="42" height="90" rx="18" fill="url(#wave)"/>
+    <rect x="470" y="582" width="42" height="50" rx="18" fill="url(#wave)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="930" y="122" width="352" height="654" rx="32" fill="rgba(10,14,19,0.84)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="952" y="144" width="308" height="118" rx="22" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="1212" cy="156" r="76" fill="#F4B860" fill-opacity="0.12"/>
+    <text x="974" y="180" class="hero">Deterministic browser soundtrack</text>
+    <text x="974" y="224" class="brand">PageGroove</text>
+    <text x="974" y="252" class="small">Synth loops generated from the structure</text>
+    <text x="974" y="274" class="small">of the page you are browsing.</text>
+
+    <rect x="952" y="278" width="308" height="56" rx="28" fill="url(#accent)"/>
+    <text x="1065" y="313" text-anchor="middle" class="status" fill="#101418">Stop Groove</text>
+
+    <rect x="952" y="348" width="308" height="86" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="974" y="374" class="label">Volume</text>
+    <text x="1216" y="374" class="status">62%</text>
+    <rect x="974" y="392" width="264" height="8" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <rect x="974" y="392" width="164" height="8" rx="4" fill="#F4B860"/>
+    <circle cx="1138" cy="396" r="11" fill="#F8F3E9"/>
+
+    <rect x="952" y="448" width="308" height="104" rx="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="978" cy="474" r="6" fill="#7FDDB0"/>
+    <text x="994" y="480" class="status">Playing</text>
+    <text x="974" y="516" class="brand" font-size="26">Example Features</text>
+    <text x="974" y="540" class="small">example.com</text>
+
+    <rect x="952" y="566" width="308" height="66" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="974" y="592" class="label">Advanced Mode</text>
+    <text x="974" y="618" class="value">Off</text>
+    <rect x="1188" y="585" width="48" height="28" rx="14" fill="rgba(255,255,255,0.16)"/>
+    <circle cx="1202" cy="599" r="10" fill="#F8F3E9"/>
+
+    <rect x="952" y="646" width="94" height="106" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="1059" y="646" width="94" height="106" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="1166" y="646" width="94" height="106" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="970" y="670" class="label">Tempo</text>
+    <text x="970" y="698" class="value">Medium</text>
+    <rect x="970" y="714" width="58" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+
+    <text x="1077" y="670" class="label">Density</text>
+    <text x="1077" y="698" class="value">Steady</text>
+    <rect x="1077" y="714" width="58" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+
+    <text x="1184" y="670" class="label">Mood</text>
+    <text x="1184" y="698" class="value">Moody</text>
+    <rect x="1184" y="714" width="58" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+  </g>
+</svg>

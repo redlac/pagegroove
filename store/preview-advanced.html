@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PageGroove Advanced Preview</title>
+    <link rel="stylesheet" href="../popup.css" />
+    <style>
+      body {
+        min-width: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 40px;
+        background:
+          radial-gradient(circle at top right, rgba(244, 184, 96, 0.18), transparent 28%),
+          linear-gradient(160deg, #0d1217 0%, #18232b 48%, #23373a 100%);
+      }
+
+      .panel {
+        width: 392px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 28px;
+        background:
+          radial-gradient(circle at top right, rgba(244, 184, 96, 0.18), transparent 32%),
+          rgba(10, 14, 19, 0.78);
+        box-shadow: 0 26px 64px rgba(0, 0, 0, 0.34);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="panel">
+      <section class="hero">
+        <p class="eyebrow">Deterministic browser soundtrack</p>
+        <h1>PageGroove</h1>
+        <p class="tagline">Synth loops generated from the structure of the page you are browsing.</p>
+      </section>
+
+      <button class="toggle-button" type="button">Stop Groove</button>
+
+      <section class="volume-panel">
+        <div class="volume-row">
+          <span class="detail-label">Volume</span>
+          <span class="volume-value">62%</span>
+        </div>
+        <input class="volume-slider" type="range" min="0" max="100" step="1" value="62" />
+      </section>
+
+      <section class="now-playing">
+        <div class="status-row">
+          <span class="status-dot playing"></span>
+          <span class="status-text">Playing</span>
+        </div>
+        <h2 class="track-title">Deep Article Layout</h2>
+        <p class="track-host">docs.example.org</p>
+      </section>
+
+      <section class="mode-panel">
+        <div class="mode-copy">
+          <span class="detail-label">Advanced Mode</span>
+          <strong class="mode-value">On</strong>
+        </div>
+        <label class="switch">
+          <input class="switch-input" type="checkbox" checked />
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+      </section>
+
+      <section class="detail-grid advanced-mode">
+        <article class="detail-card">
+          <span class="detail-label">Tempo</span>
+          <strong>108 BPM</strong>
+          <select class="control-select">
+            <option>Auto</option>
+            <option>84 BPM</option>
+            <option>96 BPM</option>
+            <option selected>108 BPM</option>
+            <option>120 BPM</option>
+          </select>
+        </article>
+        <article class="detail-card">
+          <span class="detail-label">Density</span>
+          <strong>Busy</strong>
+          <select class="control-select">
+            <option>Auto</option>
+            <option>Sparse</option>
+            <option>Steady</option>
+            <option selected>Busy</option>
+            <option>Dense</option>
+          </select>
+        </article>
+        <article class="detail-card">
+          <span class="detail-label">Mood</span>
+          <strong>Fluid (Dorian)</strong>
+          <select class="control-select">
+            <option>Auto</option>
+            <option>Smoky (Minor Pentatonic)</option>
+            <option selected>Fluid (Dorian)</option>
+            <option>Moody (Aeolian)</option>
+            <option>Bright (Mixolydian)</option>
+          </select>
+        </article>
+        <article class="detail-card">
+          <span class="detail-label">Root Note</span>
+          <strong>A</strong>
+          <select class="control-select">
+            <option>Auto</option>
+            <option>C</option>
+            <option>D</option>
+            <option selected>A</option>
+          </select>
+        </article>
+      </section>
+
+      <p class="advanced-note">Key: A minor groove • Theory: A Dorian</p>
+
+      <footer class="footer">
+        <span>Seed: 2fb34d80</span>
+      </footer>
+    </main>
+  </body>
+  </html>

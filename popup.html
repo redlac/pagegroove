@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PageGroove</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="panel">
+      <section class="hero">
+        <p class="eyebrow">Deterministic browser soundtrack</p>
+        <h1>PageGroove</h1>
+        <p class="tagline">Synth loops generated from the structure of the page you are browsing.</p>
+      </section>
+
+      <button id="toggleButton" class="toggle-button" type="button">Play This Page</button>
+
+      <section class="volume-panel">
+        <div class="volume-row">
+          <span class="detail-label">Volume</span>
+          <span id="volumeValue" class="volume-value">62%</span>
+        </div>
+        <input
+          id="volumeSlider"
+          class="volume-slider"
+          type="range"
+          min="0"
+          max="100"
+          step="1"
+          value="62"
+          aria-label="Volume"
+        />
+      </section>
+
+      <section class="now-playing">
+        <div class="status-row">
+          <span id="statusDot" class="status-dot"></span>
+          <span id="statusText" class="status-text">Ready</span>
+        </div>
+        <h2 id="trackTitle" class="track-title">Choose a page</h2>
+        <p id="trackHost" class="track-host">Open a regular website, then press play.</p>
+      </section>
+
+      <section class="mode-panel">
+        <div class="mode-copy">
+          <span class="detail-label">Advanced Mode</span>
+          <strong id="advancedModeValue" class="mode-value">Off</strong>
+        </div>
+        <label class="switch" for="advancedModeToggle">
+          <input id="advancedModeToggle" class="switch-input" type="checkbox" aria-label="Advanced mode" />
+          <span class="switch-track" aria-hidden="true"></span>
+        </label>
+      </section>
+
+      <section id="detailGrid" class="detail-grid">
+        <article class="detail-card">
+          <span class="detail-label">Tempo</span>
+          <strong id="tempoValue">-</strong>
+          <select id="tempoSimpleSetting" class="control-select" aria-label="Tempo setting"></select>
+          <select id="tempoSetting" class="control-select" aria-label="Exact tempo setting" hidden></select>
+        </article>
+        <article class="detail-card">
+          <span class="detail-label">Density</span>
+          <strong id="densityValue">-</strong>
+          <select id="densitySetting" class="control-select" aria-label="Density setting"></select>
+        </article>
+        <article class="detail-card">
+          <span class="detail-label">Mood</span>
+          <strong id="moodValue">-</strong>
+          <select id="moodSetting" class="control-select" aria-label="Mood setting"></select>
+        </article>
+        <article id="rootCard" class="detail-card" hidden>
+          <span class="detail-label">Root Note</span>
+          <strong id="rootValue">-</strong>
+          <select id="keySetting" class="control-select" aria-label="Key setting"></select>
+        </article>
+      </section>
+
+      <p id="theoryHint" class="advanced-note" hidden>Theory: -</p>
+
+      <footer class="footer">
+        <span id="seedValue">Seed: -</span>
+      </footer>
+    </main>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+  </html>

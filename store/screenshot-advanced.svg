@@ -1,0 +1,96 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="146" y1="94" x2="1260" y2="838" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D1217"/>
+      <stop offset="0.48" stop-color="#18232B"/>
+      <stop offset="1" stop-color="#27413E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="498" y1="126" x2="908" y2="782" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFD38E"/>
+      <stop offset="0.58" stop-color="#F4B860"/>
+      <stop offset="1" stop-color="#B9602D"/>
+    </linearGradient>
+    <filter id="shadow" x="396" y="80" width="608" height="760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.38 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+    <style>
+      .hero { fill: #FFD38E; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; }
+      .brand { fill: #F6F3EB; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 36px; font-weight: 700; }
+      .small { fill: rgba(246, 243, 235, 0.78); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 18px; }
+      .label { fill: rgba(208, 212, 206, 0.88); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 13px; letter-spacing: 1.8px; text-transform: uppercase; }
+      .value { fill: #F6F3EB; font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 22px; font-weight: 700; }
+      .status { fill: rgba(208, 212, 206, 0.92); font-family: 'Avenir Next', 'Trebuchet MS', sans-serif; font-size: 15px; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <circle cx="238" cy="154" r="180" fill="#F4B860" fill-opacity="0.08"/>
+  <circle cx="1180" cy="754" r="236" fill="#7FDDB0" fill-opacity="0.07"/>
+  <text x="164" y="160" class="hero">Advanced control view</text>
+  <text x="164" y="214" class="brand">Fine-tune the generated groove.</text>
+  <text x="164" y="258" class="small">Switch into advanced mode for exact BPM, root note,</text>
+  <text x="164" y="286" class="small">and scale-aware mood selection.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="440" y="124" width="520" height="672" rx="34" fill="rgba(10,14,19,0.84)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="468" y="148" width="464" height="118" rx="24" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="858" cy="160" r="82" fill="#F4B860" fill-opacity="0.12"/>
+    <text x="494" y="184" class="hero">Deterministic browser soundtrack</text>
+    <text x="494" y="228" class="brand">PageGroove</text>
+    <text x="494" y="256" class="small">Synth loops generated from the structure</text>
+    <text x="494" y="278" class="small">of the page you are browsing.</text>
+
+    <rect x="468" y="286" width="464" height="58" rx="29" fill="url(#accent)"/>
+    <text x="700" y="322" text-anchor="middle" class="status" fill="#101418">Stop Groove</text>
+
+    <rect x="468" y="360" width="464" height="86" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="494" y="386" class="label">Volume</text>
+    <text x="888" y="386" class="status">62%</text>
+    <rect x="494" y="404" width="412" height="8" rx="4" fill="rgba(255,255,255,0.12)"/>
+    <rect x="494" y="404" width="256" height="8" rx="4" fill="#F4B860"/>
+    <circle cx="750" cy="408" r="11" fill="#F8F3E9"/>
+
+    <rect x="468" y="460" width="464" height="104" rx="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.08)"/>
+    <circle cx="494" cy="486" r="6" fill="#7FDDB0"/>
+    <text x="510" y="492" class="status">Playing</text>
+    <text x="494" y="528" class="brand" font-size="28">Deep Article Layout</text>
+    <text x="494" y="552" class="small">docs.example.org</text>
+
+    <rect x="468" y="578" width="464" height="68" rx="20" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="494" y="604" class="label">Advanced Mode</text>
+    <text x="494" y="630" class="value">On</text>
+    <rect x="858" y="596" width="50" height="30" rx="15" fill="rgba(244,184,96,0.82)"/>
+    <circle cx="892" cy="611" r="11" fill="#F8F3E9"/>
+
+    <rect x="468" y="660" width="214" height="110" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="718" y="660" width="214" height="110" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="486" y="686" class="label">Tempo</text>
+    <text x="486" y="718" class="value">108 BPM</text>
+    <rect x="486" y="734" width="90" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+
+    <text x="736" y="686" class="label">Density</text>
+    <text x="736" y="718" class="value">Busy</text>
+    <rect x="736" y="734" width="68" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+
+    <rect x="468" y="790" width="214" height="110" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+    <rect x="718" y="790" width="214" height="110" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.08)"/>
+
+    <text x="486" y="816" class="label">Mood</text>
+    <text x="486" y="848" class="value">Fluid (Dorian)</text>
+    <rect x="486" y="864" width="116" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+
+    <text x="736" y="816" class="label">Root Note</text>
+    <text x="736" y="848" class="value">A</text>
+    <rect x="736" y="864" width="48" height="22" rx="11" fill="rgba(255,255,255,0.06)"/>
+
+    <text x="468" y="772" class="small">Key: A minor groove • Theory: A Dorian</text>
+  </g>
+</svg>
